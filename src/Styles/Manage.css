@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  
+}
+body{
+  background: white !important;
+}
+.sidebar div,.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-between;
+    padding: 15px;
+}
+.option-logo{
+    height: 30px !important;
+   width: 30px;
+}
+.backlogo{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+a{text-decoration: none;
+  
+    color: black;
+}
+.back img{
+  background-color:none;
+  height: 20px !important;
+  width: 20px;
+  
+}
+.back{
+  height: 2px !important;
+  margin-top: 10%;
+  padding-right: 10px;
+}
+.sidebar.hidden {
+  display: none;
+}
+
+.sidebar{
+    background-color: gray;
+    width:25%;
+    top:10%;
+    position:absolute;
+    z-index: 1;
+    opacity:80%;
+    color:black;
+    font-family: sans-serif;
+    font-size: x-large;
+    bottom:0;
+    
+}
+.non-sidebar{
+    position: relative;
+}
+.title{
+  padding: 40px;
+  font-size: x-large;
+}
+input{
+    border-width:0px;
+     font-size: medium;
+     outline: none;
+    background-color:gainsboro;
+}.search{
+    background-color:gainsboro;
+    display: flex;
+    height: min-content;
+    width: min-content;
+    border-radius: 20px;
+    padding: 10px;
+    
+}
+.add{
+    background-color:#FD8D36 ;
+    font-size:medium;
+    padding:20px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+.search-add{
+    display: flex;
+    justify-content: space-around;
+}
+table{
+    margin:auto;
+    margin-top: 1%;
+    width:70%;
+}
+thead{
+    font-size: large;
+    background-color:rgb(188, 186, 186);
+    color: white;
+    
+}
+th{
+    padding:10px;
+}
+tbody{
+    font-size: large;
+    text-align: center;
+    background-color: #f1eded;
+    
+}
+td{
+    padding:10px;
+}
+button{
+    border-radius: 20px;
+    border-width: 0px;
+    padding:10px;
+    margin:10px;
+}
+.edit{
+    background-color: #FD8D36;
+    font-size: medium;
+}
+.delete{
+    background-color: red;
+    font-size:medium;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #eee;
+}
+
+.modal {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-box {
+  background: linear-gradient(to bottom, #ccc, #999);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 300px;
+  text-align: center;
+  position: relative;
+}
+#addUserModal,#deleteUserModal,#editUserModal{
+    display: none;
+}
+
+.modal-box.small {
+  width: 350px;
+}
+
+.modal-box h2 {
+  margin-bottom: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ddd;
+  margin: 5px 0;
+  padding: 10px;
+}
+
+.label, .value {
+  width: 50%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn.cancel {
+  background-color: #c40000;
+}
+
+.btn.add {
+  background-color: #ff8811;
+}
+
+.btn.save {
+  background-color: #ff8811;
+}
+
+.btn.confirm {
+  background-color: black;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+}
